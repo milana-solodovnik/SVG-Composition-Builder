@@ -666,15 +666,15 @@ ${componentsList}
       {/* ЦЕНТР */}
       <div className="flex-1 flex items-center justify-center bg-gray-200 p-8 overflow-auto">
         <div
-          onMouseMove={handleCanvasMouseMove}
-          onMouseDown={() => setSelectedId(null)}
-          className="shadow-lg relative overflow-hidden flex-shrink-0"
-          style={{
-            width: '1200px',
-            height: '630px',
-            backgroundColor: selectedPalette ? selectedPalette.background : 'white'
-          }}
-        >
+  onMouseMove={handleCanvasMouseMove}
+  onMouseDown={() => setSelectedId(null)}
+  className="shadow-lg relative overflow-hidden flex-shrink-0 cursor-default"
+  style={{
+    width: '1200px',
+    height: '630px',
+    backgroundColor: selectedPalette ? selectedPalette.background : 'white'
+  }}
+>
           {selectedPalette && (
             <Background
               palette={selectedPalette}
@@ -687,17 +687,18 @@ ${componentsList}
 
           {canvasItems.map(item => (
             <div
-              key={item.id}
-              onMouseDown={(e) => handleItemMouseDown(e, item)}
-              className={`absolute cursor-move ${selectedId === item.id ? 'ring-2 ring-blue-500 ring-offset-2' : ''}`}
-              style={{
-                left: `${item.x}px`,
-                top: `${item.y}px`,
-                transform: `rotate(${item.rotation}deg) scale(${item.scale})`,
-                width: '100px',
-                height: '100px'
-              }}
-            >
+  key={item.id}
+  onMouseDown={(e) => handleItemMouseDown(e, item)}
+  className={`absolute ${selectedId === item.id ? 'ring-2 ring-blue-500 ring-offset-2' : ''}`}
+  style={{
+    left: `${item.x}px`,
+    top: `${item.y}px`,
+    transform: `rotate(${item.rotation}deg) scale(${item.scale})`,
+    width: '100px',
+    height: '100px',
+    cursor: 'move'
+  }}
+>
               {imageUrls[item.id] && (
                 <img
                   src={imageUrls[item.id]}
@@ -708,10 +709,10 @@ ${componentsList}
             </div>
           ))}
           {canvasItems.length === 0 && (
-            <div className="absolute inset-0 flex items-center justify-center text-gray-400 pointer-events-none">
-              <p>Кликните на компонент слева или используй ИИ-сборку</p>
-            </div>
-          )}
+  <div className="absolute inset-0 flex items-center justify-center text-gray-400 pointer-events-none select-none">
+    <p className="select-none">Кликните на компонент слева или используй ИИ-сборку</p>
+  </div>
+)}
         </div>
       </div>
 
