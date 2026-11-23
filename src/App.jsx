@@ -688,7 +688,10 @@ ${componentsList}
           {canvasItems.map(item => (
             <div
   key={item.id}
-  onMouseDown={(e) => handleItemMouseDown(e, item)}
+  onMouseDown={(e) => {
+    e.preventDefault() // Предотвращаем выделение
+    handleItemMouseDown(e, item)
+  }}
   className={`absolute ${selectedId === item.id ? 'ring-2 ring-blue-500 ring-offset-2' : ''}`}
   style={{
     left: `${item.x}px`,
@@ -696,7 +699,11 @@ ${componentsList}
     transform: `rotate(${item.rotation}deg) scale(${item.scale})`,
     width: '100px',
     height: '100px',
-    cursor: 'move'
+    userSelect: 'none',
+    WebkitUserSelect: 'none',
+    MozUserSelect: 'none',
+    msUserSelect: 'none',
+    outline: 'none'
   }}
 >
               {imageUrls[item.id] && (
