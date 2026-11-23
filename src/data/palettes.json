@@ -1,0 +1,23 @@
+[
+  {
+    "id": "purple",
+    "name": "Фиолетовая",
+    "background": "#D7CDF5",
+    "mainColors": ["#F9ECB0", "#F9A3AA", "#FFE3E1", "#FFFFFF"],
+    "shadeColors": ["#AA9BF0", "#7864D7", "#181817"]
+  },
+  {
+    "id": "peach",
+    "name": "Персиковая",
+    "background": "#FDD7B9",
+    "mainColors": ["#F9ECB0", "#80DADA", "#BEEBEB", "#FFFFFF"],
+    "shadeColors": ["#FAC896", "#D27532", "#181817"]
+  },
+  {
+    "id": "mint",
+    "name": "Мятная",
+    "background": "#BEEBEB",
+    "mainColors": ["#FFD4F2", "#6D7BFC", "#B6C6FE", "#FFFFFF"],
+    "shadeColors": ["#80DADA", "#5ABEBE", "#5ABEBE"]
+  }
+]

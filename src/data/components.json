@@ -1,0 +1,122 @@
+[
+  {
+    "id": "book",
+    "file": "/svg/book.svg",
+    "type": "main",
+    "keywords": ["книга", "чтение", "обучение", "знания", "образование", "литература", "учеба"]
+  },
+  {
+    "id": "book_shade",
+    "file": "/svg/book_shade.svg",
+    "type": "shade",
+    "keywords": ["книга", "тень", "фон", "обучение", "знания"]
+  },
+  {
+    "id": "coin",
+    "file": "/svg/coin.svg",
+    "type": "main",
+    "keywords": ["монета", "деньги", "финансы", "доход", "прибыль", "инвестиции", "капитал", "заработок"]
+  },
+  {
+    "id": "coin_shade",
+    "file": "/svg/coin_shade.svg",
+    "type": "shade",
+    "keywords": ["монета", "тень", "фон", "деньги", "финансы"]
+  },
+  {
+    "id": "flower",
+    "file": "/svg/flower.svg",
+    "type": "main",
+    "keywords": ["цветы", "рост", "развитие", "красота", "природа", "творчество", "идеи", "вдохновение"]
+  },
+  {
+    "id": "flower_shade",
+    "file": "/svg/flower_shade.svg",
+    "type": "shade",
+    "keywords": ["цветы", "тень", "фон", "рост", "развитие"]
+  },
+  {
+    "id": "folder",
+    "file": "/svg/folder.svg",
+    "type": "main",
+    "keywords": ["папка", "документы", "файлы", "организация", "хранение", "архив", "данные", "проекты"]
+  },
+  {
+    "id": "folder_shade",
+    "file": "/svg/folder_shade.svg",
+    "type": "shade",
+    "keywords": ["папка", "тень", "фон", "документы", "файлы"]
+  },
+  {
+    "id": "headphones",
+    "file": "/svg/headphones.svg",
+    "type": "main",
+    "keywords": ["наушники", "музыка", "аудио", "подкаст", "звук", "медиа", "развлечения", "контент"]
+  },
+  {
+    "id": "headphones_shade",
+    "file": "/svg/headphones_shade.svg",
+    "type": "shade",
+    "keywords": ["наушники", "тень", "фон", "музыка", "аудио"]
+  },
+  {
+    "id": "lamp",
+    "file": "/svg/lamp.svg",
+    "type": "main",
+    "keywords": ["лампа", "свет", "идея", "озарение", "творчество", "работа", "офис", "вдохновение"]
+  },
+  {
+    "id": "lamp_shade",
+    "file": "/svg/lamp_shade.svg",
+    "type": "shade",
+    "keywords": ["лампа", "тень", "фон", "свет", "идея"]
+  },
+  {
+    "id": "pen",
+    "file": "/svg/pen.svg",
+    "type": "main",
+    "keywords": ["ручка", "письмо", "заметки", "документ", "подпись", "контент", "текст", "создание"]
+  },
+  {
+    "id": "pen_shade",
+    "file": "/svg/pen_shade.svg",
+    "type": "shade",
+    "keywords": ["ручка", "тень", "фон", "письмо", "заметки"]
+  },
+  {
+    "id": "phone",
+    "file": "/svg/phone.svg",
+    "type": "main",
+    "keywords": ["телефон", "смартфон", "связь", "коммуникация", "мобильный", "приложение", "технологии", "гаджет"]
+  },
+  {
+    "id": "phone_shade",
+    "file": "/svg/phone_shade.svg",
+    "type": "shade",
+    "keywords": ["телефон", "тень", "фон", "смартфон", "связь"]
+  },
+  {
+    "id": "puzzles",
+    "file": "/svg/puzzles.svg",
+    "type": "main",
+    "keywords": ["пазлы", "загадка", "решение", "командная работа", "интеграция", "сборка", "логика", "стратегия"]
+  },
+  {
+    "id": "puzzles_shade",
+    "file": "/svg/puzzles_shade.svg",
+    "type": "shade",
+    "keywords": ["пазлы", "тень", "фон", "загадка", "решение"]
+  },
+  {
+    "id": "wallet",
+    "file": "/svg/wallet.svg",
+    "type": "main",
+    "keywords": ["кошелек", "деньги", "платежи", "финансы", "покупки", "бюджет", "экономия", "карта"]
+  },
+  {
+    "id": "wallet_shade",
+    "file": "/svg/wallet_shade.svg",
+    "type": "shade",
+    "keywords": ["кошелек", "тень", "фон", "деньги", "платежи"]
+  }
+]
