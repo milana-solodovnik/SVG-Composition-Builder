@@ -101,6 +101,7 @@ npm run preview
 
 ##  Структура проекта
 
+```
 svg-composition-builder/
 ├── public/
 │   └── svg/                    # SVG-ассеты
@@ -127,6 +128,7 @@ svg-composition-builder/
 ├── .env                        # API-ключ (не коммитить!)
 ├── package.json
 └── README.md
+```
 
 ## Примеры собранных композиций
 
